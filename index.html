@@ -20,39 +20,51 @@
   </head>
   <body>
     <!-- this is layout header -->
-    <div>
-      <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          <img src="logo.png" width="30%" alt="logo" />
-          <a href="#">HOEM</a>
-          <a href="#">COMPANY</a>
-          <a href="#">OUR COVERAGE</a>
-          <a href="#">SERVICES</a>
-          <a href="#">SUPPORT</a>
-          <!-- this icon -->
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-search"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-            />
-          </svg>
-        </a>
-      </nav>
-    </div>
-    <!-- this is main contain of layout -->
+
+    <header style="color:green">
+      <div class="container">
+        <nav class="navbar">
+          <a class="navbar-brand" href="#">
+            <img src="logo.png" width="30%" alt="logo" />
+            <ul>
+              <li><a href="#">HOEM</a></li>
+              <li><a href="#">COMPANY</a></li>
+              <li><a href="#">OUR COVERAGE</a></li>
+              <li><a href="#">SERVICES</a></li>
+              <li><a href="#">SUPPORT</a></li>
+            </ul>
+            <!-- this icon -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-search"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+              />
+            </svg>
+          </a>
+        </nav>
+      </div>
+      <hr />
+    </header>
+
+    <!-- this is layout frist part-->
     <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <img src="images1.png" alt="images1" height="400px" />
+      <div class="row" id="solanki">
+        <div class="col-md-6">
+          <img
+            src="images1.jpeg"
+            class="rounded"
+            alt="images1"
+            height="300px"
+          /><div class="top-left">Top Left</div>
         </div>
-        <div class="col-sm-6">
-          <p>
+        <div class="col-md-4">
+          <p style="text-align: center;">
             THE MARITIME INDUSTRY DEMANDS SEAMLESS CONNECTIVITY ACROSS THE
             WORLD'S OCEANS. THE SECTOR NEEDS HIGHLY RELIABLE TELEPHONY AND DATA
             SERVICES TO MEET THE INCREASINGLY COMPLEX REQUIREMENTS OF MARITIME
@@ -60,31 +72,49 @@
           </p>
         </div>
       </div>
-      <!-- this is main contain part 2 -->
-      <div class="col-sm-12">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-        </p>
-        <a href="#" style="text-align: center">DICOVER MORE</a>
-      </div>
-      <!-- this is main containe part 3 -->
-      <div id="part3">
-        <div class="col-sm-6"><img src="images2.png" alt="image" /></div>
-        <div>
-          <div class="col-sm-6"><img src="images1.png" alt="image" /></div>
-          <div class="col-sm-6"><img src="images3.png" alt="image" /></div>
+      <hr />
+      <!-- this is layout second part-1 -->
+      <div>
+        <div class="col-sm-12">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
+          <a href="#" style="text-align: center">DICOVER MORE</a>
+        </div>
+        <!-- this is layout second part 2 -->
+        <div id="part3">
+          <div class="col-sm-6" class="images2">
+            <img src="images2.png" class="rounded" alt="image" height="100%" />
+          </div>
+          <div class="nikhil">
+            <div class="col-sm-6">
+              <img
+                src="images1.jpeg"
+                class="rounded"
+                alt="image"
+                height="100%"
+              />
+            </div>
+            <div class="col-sm-6">
+              <img
+                src="images3.png"
+                class="rounded"
+                alt="image"
+                height="100%"
+              />
+            </div>
+          </div>
         </div>
       </div>
-      <br />
-      <!-- this is main contain PART 4 -->
+      <hr />
+      <!-- this is layout third part -->
       <div>
-        <h3>BLOGS</h3>
-
+        <h3 style="text-align: center">BLOGS</h3>
         <div class="row">
           <br />
           <div class="col-3">
@@ -123,7 +153,7 @@
         </div>
       </div>
     </div>
-    <!-- this is footer -->
+    <!-- this is layout footer -->
     <footer
       style="background-color: black; text-align: center; text-decoration: none"
     >
